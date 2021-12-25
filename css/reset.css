@@ -1,0 +1,153 @@
+body{
+	padding: 0;
+	margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+	background-image: url();
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+h1{
+	  font-size: 135%;
+    text-transform: uppercase;
+    margin-top: 30px;
+    text-align: center;
+    color:#3fcee6;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+table{
+	position: center;
+}
+
+th{
+    color:white;
+}
+
+.assult{
+    font-size: 100%;
+    margin-top: 10%;
+    margin-left: 2%;
+   
+}
+
+.pssd{
+     margin-left: 10%;
+     width:85%;
+     overflow: hidden;
+     font-size: 15%;
+     background: white;
+     display: block;
+     border:2px solid white;
+     padding: 5px 10px;
+     outline: none;
+     border-radius: 5px;
+}
+
+.pssd1{
+     margin-left: 10%;
+     width:85%;
+     margin-top: 10px;
+     overflow: hidden;
+     font-size: 15%;
+     overflow: hidden;
+     background: white;
+     display: block;
+     padding: 5px 10px;
+     outline: none;
+     border-radius: 5px;
+     border:2px solid white;
+
+}
+
+.pssd2{
+     margin-left: 10%;
+     margin-top: 10px;
+     width:85%;
+     overflow: hidden;
+     font-size: 15%;
+     background: white;
+     display: block;
+     padding: 5px 10px;
+     outline: none;
+     border:2px solid white;
+     border-radius: 5px;
+     box-shadow: 2px 1px 2px #444;
+}
+
+.pssd input,.pssd1 input,.pssd2 input
+{
+     outline: none;
+     border:none;
+     background: none;
+     color: black;
+     font-size: 15px;
+     width: 100%;
+     float: left;
+     margin:0px ;
+}
+
+
+.pssd2:hover
+{
+   	border:2px solid tomato;
+}
+
+.loginbox
+{
+	width: 400px;
+	height: 350px;
+	background: rgb(0,0,0,.8);
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.9);
+	border-radius: 10px;
+}
+
+.btn{
+  margin-top: 25%;
+  margin-left: 95%;
+  border-radius: 5px;
+  background-color:#2389f3 ;
+  border: none;
+  color:#ffff;
+  font-size: 100%;
+  padding: 4px 6px;
+  width:80%;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-family:'Ubuntu', sans-serif;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btn:hover
+{
+   background-color: grey;
+}

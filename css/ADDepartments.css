@@ -1,0 +1,393 @@
+body{
+	  margin:0;
+    padding: 0;
+	  font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter; 
+}
+
+th{
+    
+    color:white;
+}
+
+.loginbox h2{
+     margin-top: 7%; 
+     text-align: center;
+     text-transform: uppercase;
+     font-size: 135%;
+     font-weight: bold;
+     text-decoration: underline;
+     color:#23e2d2f0;
+ }
+
+
+table{
+	position: center;
+
+}
+
+.assult{
+    font-size: 100%;
+	  margin-top: 8%;
+	  margin-left: 3%;
+   
+   
+}
+
+.pssd{
+     margin-top: 7px;
+	   margin-left: 10%;
+	   width:85%;
+     overflow: hidden;
+     font-size: 15%;
+     background: white;
+     display: block;
+     border:2px solid white;
+     padding: 5px 10px;
+     outline: none;
+     border-radius: 5px;
+    
+}
+
+.pssd1{
+     margin-left: 10%;
+     margin-top: 5px;
+     width:85%;
+     overflow: hidden;
+     font-size: 15%;
+     background: white;
+     display: block;
+     border:2px solid white;
+     padding: 5px 10px;
+     outline: none;
+     border-radius: 5px;
+     box-shadow: 2px 1px 2px #444;
+}
+
+.pssd input,.pssd1 input{
+     outline: none;
+     border:none;
+     background: none;
+     color: black;
+     font-size: 15px;
+     width: 100%;
+     float: left;
+     margin:0px ;
+}
+
+.pssd1:hover,.pssd:hover
+{
+    border:2px solid tomato;
+}
+
+.btn{
+  margin-top: 28%;
+  margin-left: 100%;
+  border-radius: 5px;
+  background-color:#2389f3;
+  border: none;
+  color:#ffff;
+  font-size: 100%;
+  padding: 4px 6px;
+  width:80%;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-family:'Ubuntu', sans-serif;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btn:hover{
+     background-color: grey;
+  
+}
+
+
+.loginbox
+{
+	width: 400px;
+	height: 370px;
+	background:rgba(0,0,0,.9);
+	position:absolute;
+	top: 50%;
+	left: 55%;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.9);
+	border-radius: 15px;
+	font-color: white;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+  
+  header{
+  position:fixed;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: lighter;
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#second{
+  position: absolute;
+}
+
+.logo{
+  width: 5%;
+  float: left;
+  margin-bottom: 5px;
+}
+
+.logo img{
+  margin-top: 20px;
+  margin-left: 650%;
+  height: 90px;
+  border-radius: 110px;
+}
+
+#las{
+    margin-top: 2%;   
+    margin-left: 32% ;
+    color: #fff;
+    font-weight: bold;
+    font-size: 11px;         
+}
+
+.menu_list{
+  margin-top: 0px;
+  margin-left: 0px;
+  height: 100px;
+  width: 95%;
+  top: 3%;
+  position:absolute;
+  text-align: left;
+  transition: 1s;
+  color: #fff;
+}
+
+.header_menu{
+  width: 22%;
+  height: 100vh;
+  display: flex;
+  flex-direction:column;
+  align-items: left;
+  background: rgb(0,0,0,0.8);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.9);
+}
+
+#iconbar{
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  opacity: 0;
+  visibility: hidden;
+}
+#iconbar:hover{
+  color: tomato;
+}
+
+.menu_list ul{
+  height: 65vh; 
+  width:95%;
+  margin-top: 60%;
+  background:#2389f3;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+
+#gap{
+  margin-top: 10%;
+}
+
+.menu_list li{ 
+  margin-left: 13%; 
+  text-align: center;
+  padding: 20px 5px;
+  text-transform: uppercase;
+  list-style: none;
+  margin-right: 50px;
+  font-size: 100%
+}
+
+
+.active{ 
+      text-decoration: none;
+      color: black;
+      font-size: 100%;
+      font-weight: bold;
+      border:5px;
+      border-radius: 5px;
+      padding:4px 10px;
+}
+
+.dactive{ 
+      text-decoration: none;
+      color: #fff;
+      font-size: 100%;
+      font-weight: bold;
+      border:5px;
+      border-radius: 5px;
+      padding:4px 10px;
+}
+
+.active{
+   background:#fff;
+   color:black;
+}
+
+.dactive:hover{
+  background: #fff;
+  color:black;
+}
+
+#iconbar{
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  opacity: 0;
+  visibility: hidden;
+}
+#iconbar:hover{
+  color: blue
+}
+
+#first{
+  position: relative;
+}
+#second{
+  position: absolute;
+}
+
+@media (max-width: 840px){
+    .logo{
+       margin-left: -31.5%;     
+       float: left;
+       margin-bottom: 10px;
+    }
+    .logo img{
+      margin-top: 14px;
+       border-radius: 1px;
+    }
+     
+    #las{
+      visibility:hidden;l
+    } 
+    
+    .loginbox{
+      margin-left: -20px;
+    }
+
+    .header_menu{
+      margin-top: 0px;
+      position: fixed;
+      margin-left: 0px;
+      width: 100%;
+      height: 99.5px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background:rgba(0,0,0,0.8); 
+    }
+
+    .menu_list{
+        margin-right: -12%;
+        height: 80vh;
+        width: 100%;
+        top: 99.5px;
+        position: absolute;
+        text-align: right;
+        padding-right: 50px;
+        color: #fff;
+        padding-right: 40px;
+        transition: 1s;
+        background: rgba(0,0,0,0);
+    }
+    .menu_list ul{
+        opacity: 0;
+        visibility: hidden;
+    }
+    #iconbar{
+      opacity: 1;
+      visibility: visible;
+    }
+    .menu_list.responsive{
+      width: 95%!important;
+      height: 85vh!important;
+      background-color: rgba(0,0,0,0.8);
+      position: absolute;
+      z-index: 11111;
+    }
+    
+    .menu_list.responsive ul{
+      opacity: 1;
+      visibility: visible;
+      margin-top: 0px;
+      height: 85%;
+      background: none;
+    }
+    .menu_list.responsive ul li{
+      margin-top: 8px;
+      float: none;
+      display: block;
+      text-align: center;
+      padding: 25px 10px;
+    }
+   
+   .astr{
+    margin-top: 10px;
+   }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

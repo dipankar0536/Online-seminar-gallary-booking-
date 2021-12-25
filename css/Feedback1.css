@@ -1,0 +1,305 @@
+body{
+     margin:0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.feedback-box{
+	width: 420px;
+	height: 340px;
+	background: rgb(0,0,0,.8);
+	position: fixed;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	border-radius: 15px;
+	text-align: center;
+  border:2px solid black;
+	box-shadow:0 15px 25px rgba(0,0,0,.5);
+	font-family: sans-serif;
+}
+
+.feedback-box h1{
+   font-size: 30px;
+   margin-left: 35%;
+   margin-top: 10px;
+   text-decoration: underline;
+   color: #23e2d2f0;
+   font-family: 'Ubuntu', sans-serif; ; 
+}
+
+textarea{
+	box-sizing: border-box;
+	max-width: 90%;
+	max-height: 50%;
+  min-width: 90%;
+  min-height: 50%;
+	font-size: 17px;
+	font-family: sans-serif;
+  margin-top: 18%;
+	margin-left: 2%;
+	border:2px solid white;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+textarea:hover{
+	box-shadow: 0 15px 25px rgba(0,0,0,.8); 
+	border:2px solid white;
+	border-radius: 5px;
+}
+
+
+.btn1{
+    margin-top: 7%;
+    margin-left: 10px;
+	  border-radius: 4px;
+    background-color: #2389f3;
+    border: none;
+    color:#ffff;
+    text-align: center;
+    font-size: 100%;
+    padding: 5px 5px;
+    width:25%;
+    font-family:'Ubuntu', sans-serif;
+}
+
+.btn1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn1 span:after {
+  content: ' \00D7';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn1:hover span {
+  padding-right: 25px;
+}
+
+.btn1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.btn1:hover,.btn:hover{
+     background-color: grey;  
+}
+
+
+.btn{
+  margin-top: 10%;
+  border-radius: 4px;
+  background-color: #2389f3;
+  border: none;
+  color:#ffff;
+  text-align: center;
+  font-size: 100%;
+  padding: 5px 5px;
+  width:25%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family:'Ubuntu', sans-serif;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+  
+  header{
+  position:fixed;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: lighter;
+  background-image: url(1st.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.header_menu{
+  margin-top: 3px;
+  position: fixed;
+  margin-left: 4px;
+  width: 99.5%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: black;
+}
+.logo{
+  width: 5%;
+  float: left;
+  margin-bottom: 5px;
+}
+.logo img{
+  margin-left: 8px;
+  height: 70px;
+}
+h1{
+    position: fixed;
+    margin-top: 40px;
+    float: left;   
+    margin-left: 8px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+         
+}
+#iconbar{
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#iconbar :hover{
+  color: tomato;
+}
+
+.menu_list{
+  height: 100px;
+  width: 95%;
+  top: 20%;
+  position: absolute;
+  text-align: right;
+  padding-right: 50px;
+  color: #fff;
+  padding-right: 40px;
+  transition: 1s;
+}
+.menu_list li{
+  display: inline-block;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  list-style: none;
+  padding-left: 50px;
+}
+.menu_list li a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+      border:2px ;
+      border-radius: 5px;
+      padding: 4px 15px;
+}
+.menu_list li a:hover{
+  background: #2389f3;
+}
+.active{
+   background:#2389f3;
+}
+.feedback{
+  position: absolute;
+}
+#first{
+  position: relative;
+}
+#second{
+  position: absolute;
+}
+
+
+@media (max-width: 1150px) {
+  .logo{
+    width: 100%;
+
+     }
+     .header_menu{
+      width: 100%;
+     }
+    .menu_list{
+      width: 100%;
+      text-align: center;
+      background-color: blue; 
+      top: 100%;
+    }
+}
+@media (max-width: 740px){
+  .logo{
+    width: 100%;
+  }
+    .menu_list{
+
+        background: rgba(0,0,0,0);
+    }
+    .menu_list ul{
+        opacity: 0;
+        visibility: hidden;
+    }
+    #iconbar{
+      opacity: 1;
+      visibility: visible;
+    }
+    .menu_list.responsive{
+      width: 95%!important;
+      height: 85vh!important;
+      background-color: black;
+      position: absolute;
+      z-index: 11111;
+    }
+    
+    .menu_list.responsive ul{
+      opacity: 1;
+      visibility: visible;
+    }
+    .menu_list.responsive ul li{
+      margin-top:5%;
+      float: none;
+      display: block;
+      text-align: center;
+      padding: 25px 10px;
+    }
+}
+@media (max-width: 430px){
+  .feedback-box{
+     width: 95%;
+     position: fixed;
+     }
+     .feedback-box h1{
+        font-size: 28px;  
+     }
+} 

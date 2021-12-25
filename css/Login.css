@@ -1,0 +1,317 @@
+.loginbox
+{
+  width: 310px;
+  height: 350px;
+  background: rgba(0,0,0,.9);
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.8);
+  border-radius: 19px;
+  color: white;
+}
+.avatar
+{
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(53% - 50px);
+}
+h2{
+   text-align:  center;
+   font-family: 'Pacifico', cursive;
+}
+
+.loginbox h2
+{
+   margin-left: 11px;
+   text-transform: uppercase;
+   text-align: center;
+   margin-top: 19%;
+   color: white;
+   font-size: 22px;
+   text-decoration: underline;
+   font-family: sans-serif;
+}
+
+.textbox i,.textbox1 i
+{
+width: 30px;
+float: left;
+}
+
+.textbox input,.textbox1 input
+{
+outline: none;
+background:none;
+border:none;
+color: white;
+font-size: 14px;
+width: 70%;
+float: left;
+margin-left: 20px;
+}
+
+.textbox 
+{
+padding-left: 12%;
+margin-top: 13%;
+margin-left: 40px;
+width:68%;
+overflow: hidden;
+background:none;
+display: block;
+border:2px solid white;
+padding: 9px 10px;
+outline: none;
+border-radius: 15px;
+}
+
+.textbox1
+{
+padding-left: 12%;
+margin-top: 5%;
+margin-left: 40px;
+width:68%;
+overflow: hidden;
+background:none ;
+display: block;
+border:2px solid white;
+padding: 9px 10px;
+outline: none;
+border-radius: 15px;
+margin-bottom: 30px;
+}
+
+.textbox:hover,.textbox1:hover
+{
+    border:#4ffbd6;
+    box-shadow: 2px 1px 2px #4ffbd6;
+}
+
+.btn{
+  margin-top: 4%;
+  margin-left: 37%;
+  border-radius: 5px;
+  background-color: #2389f3;
+  border: none;
+  color:#ffff;
+  font-size: 100%;
+  padding: 5px 6px;
+  width:30%;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-family:'Ubuntu', sans-serif;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+.btn:hover
+{
+   background-color: grey;
+}
+
+.wax
+{ 
+   position: absolute;
+   top: 90%;
+   left: 25%;
+   color: white;
+   font-size: 13px;
+   text-decoration: none;
+   font-family: sans-serif;
+}
+.wax1:hover{
+  color: red;
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+  
+  header{
+  position:fixed;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: lighter;
+  background-image: url(../pic/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.header_menu{
+  margin-top: 3px;
+  position: fixed;
+  margin-left: 4px;
+  width: 99.5%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: black;
+}
+.logo{
+  width: 5%;
+  float: left;
+  margin-bottom: 5px;
+}
+.logo img{
+  margin-left: 8px;
+  height: 70px;
+}
+h1{
+    position: fixed;
+    margin-top: 40px;
+    float: left;   
+    margin-left: 8px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+         
+}
+#iconbar{
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  opacity: 0;
+  visibility: hidden;
+}
+#iconbar:hover{
+  color: tomato;
+}
+
+.menu_list{
+  height: 100px;
+  width: 95%;
+  top: 20%;
+  position: absolute;
+  text-align: right;
+  padding-right: 50px;
+  color: #fff;
+  padding-right: 40px;
+  transition: 1s;
+}
+.menu_list li{
+  display: inline-block;
+  padding: 16px 20px;
+  text-transform: uppercase;
+  list-style: none;
+  padding-left: 50px;
+}
+.menu_list li a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 19px;
+      font-weight: bold;
+      border:2px ;
+      border-radius: 5px;
+      padding: 4px 15px;
+}
+.menu_list li a:hover{
+  background: #2389f3;
+}
+.active{
+   background:#2389f3;
+}
+
+#first{
+  position: relative;
+}
+#second{
+  position: absolute;
+}
+
+
+@media (max-width: 990px) {
+  .logo{
+    width: 100%;
+
+     }
+     h1{
+      width: 100%;     
+     }
+    .header_menu{
+      width: 99%;
+     }
+    .menu_list{
+      width: 99.5%;
+      text-align: center;
+      background-color: blue; 
+      top: 100%;
+    }
+}
+@media (max-width: 840px){
+  .logo{
+    width: 100%;
+  }
+    .menu_list{
+        background: rgba(0,0,0,0);
+    }
+    .menu_list ul{
+        opacity: 0;
+        visibility: hidden;
+    }
+    #iconbar{
+      opacity: 1;
+      visibility: visible;
+    }
+    .menu_list.responsive{
+      width: 95%!important;
+      height: 85vh!important;
+      background-color: black;
+      position: absolute;
+      z-index: 11111;
+    }
+    
+    .menu_list.responsive ul{
+      opacity: 1;
+      visibility: visible;
+    }
+    .menu_list.responsive ul li{
+      margin-top:5%;
+      float: none;
+      display: block;
+      text-align: center;
+    }
+   
+} 
+
+
+
+
+

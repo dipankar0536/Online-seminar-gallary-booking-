@@ -1,0 +1,182 @@
+body{
+	margin:0;
+	background-color: #4446;
+	font-family: sans-serif;
+}
+
+img{
+    margin-top: 0px;
+    margin-left: 15px;
+    float: left;
+    height: 90px;
+    width: 90px;
+
+}
+
+.menu{
+    margin-left: 115px;
+    margin-top: 10px;   
+    background: #4AA7DC ;
+    width: 88%; 
+    height: 15%;
+    border:  2px solid black;
+    border-radius: 10px;
+}
+
+ h1 {
+    color: green;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 0px;
+    padding-left: 15px;
+
+}
+a.active{
+    
+    margin-left: 8px;
+    box-shadow: 0 15px 25px rgb(0,0,0,.5); 
+    text-decoration: none;
+    background:  rgb(0,0,0,.8);
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    padding: 0 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition:0.25s;
+    border-radius: 1px;
+}
+
+.antman{
+    margin-left: 0px;
+    line-height: 80px;    
+}
+
+.std{
+    border:none;
+    margin-left: 8px;
+    border-radius:  1px; 
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 0 25px;
+    transition:0.5s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.std:hover{
+    color:white;
+    background:  rgb(0,0,0,.8);
+    border: 2px solid black;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 1px;
+    text-decoration: none;
+}
+
+
+table{
+	position: center;
+}
+
+
+.assult{
+    font-size: 115%;
+	margin-top: 7%;
+	margin-left: 5%;
+    font-weight: bold;
+   
+}
+
+.pssd{
+	 margin-left: 10px;
+	 width:100%;
+     overflow: hidden;
+     font-size: 20px;
+     border:0;
+     background: none;
+     display: block;
+     border:2px solid #444;
+     padding: 5px 8px;
+     outline: none;
+     border-radius: 1px;
+     box-shadow: 2px 1px 2px #444;
+}
+
+.btn
+{
+margin-left: 50px;
+width: 80%;
+overflow: hidden;
+font-size: 20px;
+border:0;
+background: none;
+display: block;
+border:2px solid #444;
+padding: 3px 3px;
+outline: none;
+color: white;
+border-radius: 1px;
+box-shadow: 2px 1px 2px #444;
+cursor: pointer;
+}
+
+
+.pssd input{
+     outline: none;
+     border:none;
+     background: none;
+     color: white;
+     font-size: 15px;
+     width: 90%;
+     float: left;
+     margin: 0 10px;
+}
+
+.pssd:hover{
+
+    border: 2px solid yellow;
+}
+
+.btn:hover
+{
+   	border:white;
+}
+
+.loginbox
+{
+	width: 550px;
+	height: 130px;
+	background: rgb(0,0,0,.8);
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	border-radius: 1px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
